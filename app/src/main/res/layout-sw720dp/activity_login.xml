@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mandipsilwal.customerapplication.Login"
+    android:background="@android:color/holo_green_dark">
+
+    <Button
+        android:id="@+id/facebook"
+        android:background="@drawable/facebook"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/google"
+        android:layout_alignRight="@+id/google"
+        android:layout_alignEnd="@+id/google"
+        android:layout_alignLeft="@+id/google"
+        android:layout_alignStart="@+id/google"
+        android:layout_width="650dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:text="SIGN UP"
+        android:textSize="18sp"
+        android:layout_marginTop="2dp"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/background_light"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignStart="@+id/login"
+        android:layout_alignRight="@+id/login"
+        android:layout_alignEnd="@+id/login"
+        android:layout_width="650dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:background="@drawable/googlebutton"
+        android:id="@+id/google"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/signUp"
+        android:layout_alignLeft="@+id/signUp"
+        android:layout_alignStart="@+id/signUp"
+        android:layout_alignRight="@+id/signUp"
+        android:layout_alignEnd="@+id/signUp"
+        android:layout_width="630dp"
+        android:layout_height="100dp" />
+
+    <Button
+        android:ems="10"
+        android:id="@+id/login"
+        android:text="@string/login"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text_size="@dimen/text_size"
+        android:textColor="@android:color/background_light"
+        android:layout_height="100dp"
+        android:layout_above="@+id/signUp"
+        android:layout_width="900dp" />
+</RelativeLayout>
