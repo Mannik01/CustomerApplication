@@ -11,10 +11,9 @@
         <activity android:name=".MainActivity">
 
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
-
             </intent-filter>
+
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +26,6 @@
 
         <activity android:name=".Login" />
         <activity
-
             android:name=".drawer"
             android:label="@string/title_activity_drawer"
             android:theme="@style/AppTheme.NoActionBar">
@@ -37,7 +35,7 @@
         <activity android:name=".SlidingTabStrip" />
         <activity android:name=".Featured" />
         <activity android:name=".Nearby" />
-        <activity android:name=".Favorites"/>
+        <activity android:name=".Favorites"></activity>
 
     </application>
 
