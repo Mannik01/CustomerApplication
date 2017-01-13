@@ -22,6 +22,11 @@
         </intent-filter>
         </activity>
 
+        <activity android:name=".Login" />
+        <activity android:name=".MyAppointment" />
+        <activity android:name=".ConfirmationAppt"></activity>
+
+
         <activity android:name=".RegistrationActivity"></activity>
 
         <activity android:name=".Login" />
@@ -36,6 +41,7 @@
         <activity android:name=".Featured" />
         <activity android:name=".Nearby" />
         <activity android:name=".Favorites"></activity>
+
 
     </application>
 
