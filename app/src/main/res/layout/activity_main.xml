@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="#fcfdff"
     tools:context="com.example.mandipsilwal.customerapplication.MainActivity">
 
@@ -43,3 +47,35 @@
         android:layout_marginBottom="72dp"
         android:id="@+id/button" />
 </RelativeLayout>
+=======
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <com.example.mandipsilwal.customerapplication.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@color/colorAccent" />
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        ></android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>
+>>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f

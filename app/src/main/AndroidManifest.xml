@@ -9,13 +9,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+<<<<<<< HEAD
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+=======
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+>>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".RegistrationActivity"></activity>
+=======
+        <activity android:name=".Login" />
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".SlidingTabLayout" />
+        <activity android:name=".SlidingTabStrip" />
+        <activity android:name=".Featured" />
+        <activity android:name=".Nearby" />
+        <activity android:name=".Favorites"></activity>
+>>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
     </application>
 
 </manifest>

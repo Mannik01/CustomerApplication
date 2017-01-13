@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.example.mandipsilwal.customerapplication"
-        minSdkVersion 15
+        minSdkVersion 23
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -25,6 +25,12 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+=======
+    compile 'com.android.support:support-v4:25.1.0'
+
+>>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
 }
