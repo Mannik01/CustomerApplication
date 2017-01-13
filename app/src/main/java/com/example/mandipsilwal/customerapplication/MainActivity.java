@@ -1,13 +1,6 @@
 //package com.android4devs.slidingtab;
 package com.example.mandipsilwal.customerapplication;
 
-<<<<<<< HEAD
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-=======
 import android.content.Context;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
@@ -21,7 +14,6 @@ import android.view.View;
 
 
 public class MainActivity extends drawer {
->>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
 
     // Declaring Your View and Variables
 
@@ -35,25 +27,6 @@ public class MainActivity extends drawer {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< HEAD
-        setContentView(R.layout.activity_main);
-
-
-        Button button = (Button) findViewById(R.id.button);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, RegistrationActivity.class));
-            }
-        });
-
-    }
-}
-
-
-
-=======
         LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         //inflate your activity layout here!
         View contentView = inflater.inflate(R.layout.activity_main, null, false);
@@ -117,4 +90,3 @@ public class MainActivity extends drawer {
         return super.onOptionsItemSelected(item);
     }
 }
->>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f

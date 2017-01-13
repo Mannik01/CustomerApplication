@@ -1,53 +1,7 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-=======
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:background="#fcfdff"
-    tools:context="com.example.mandipsilwal.customerapplication.MainActivity">
-
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="158dp"
-        android:id="@+id/editText"
-        android:gravity="center"
-        android:drawableLeft="@mipmap/ic_email_black_24dp"
-        android:hint="email" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:layout_below="@+id/editText"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:layout_marginTop="49dp"
-        android:id="@+id/editText2" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="72dp"
-        android:id="@+id/button" />
-</RelativeLayout>
-=======
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -69,13 +23,13 @@
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
-
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_weight="1"
-        ></android.support.v4.view.ViewPager>
+        >
+
+    </android.support.v4.view.ViewPager>
 
 
 
 </LinearLayout>
->>>>>>> f17e69168b3f9f23fd2729e6fa17bdd5741da72f
